@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 /**
+ * @version 0.2
+ * @author Yong Cao
+ *
  * Created by ycao on 9/11/2015.
  */
 public class vowelCounter {
@@ -12,6 +15,8 @@ public class vowelCounter {
         int iCounter = 0;
         int oCounter = 0;
         int uCounter = 0;
+
+        str = str.toLowerCase();
 
         for (int i=0; i<str.length(); i++){
             char  ch = str.charAt(i);
